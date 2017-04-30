@@ -6,4 +6,4 @@ library.
 
 The SimpleCaptcha library is installed as alocal maven repo in the project.
 
-For front it it uses Jquery and JqueryUI CSS.
+For UI it it uses plain HTML , Jquery and JqueryUI CSS.
