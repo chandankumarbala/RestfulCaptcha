@@ -1,0 +1,17 @@
+#captchaTable{
+border-collapse: collapse;
+}
+#captchaTable>tbody>tr>td>input{
+    border: none;
+   padding-left: 3px;
+    width: 100%;
+    height: 15px;
+    font-size: 14px;
+}
+#captchaTable>tbody>tr>td>input:focus{
+outline: none;
+}
+#captchaTable>tbody>tr>td>.ui-icon{
+cursor:pointer;
+width: 20px;
+}

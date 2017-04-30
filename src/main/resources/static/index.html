@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/restCaptcha.css">
+<script src="js/jquery-1.2.min.js"></script>
+<script src="js/restCaptcha.js"></script>
+</head>
+
+<body>
+	<table border="1" id="captchaTable">
+		<tr>
+			<td rowspan="2"><img alt="Captcha Loading" src="" id="captchaImg"
+				captchaId=""></td>
+			<td><span class="ui-icon ui-icon-refresh"
+				title="Load another image" id="captchaReload"></span></td>
+		</tr>
+		<tr>
+			<td><span class="ui-icon ui-icon-check" title="Validate Captcha"
+				id="captchaSubmit"></span></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="text" id="captchaAnswer"
+				placeholder="Captcha Text"></td>
+		</tr>
+	</table>
+
+</body>
+</html>
